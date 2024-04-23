@@ -1,112 +1,604 @@
 [
     {
-        "id": "01",
-        "question" : "Which of the following is the correct name of React.js?",
-        "options": [
-            "React",
-            "React.js",
-            "ReactJS",
-            "All of the above"
-        ],
-        "answer": "All of the above"
+      "id": "01",
+      "question": "What is the capital of France?",
+      "options": ["Paris", "Rome", "Berlin", "Madrid"],
+      "answer": "Paris"
     },
     {
-        "id": "02",
-        "question" : "Which of the following are the advantages of React.js?",
-        "options": [
-            "React.js can increase the application's performance with Virtual DOM.",
-            "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
-            "React.js can render both on client and server side.",
-            "All of the above"
-        ],
-        "answer": "All of the above"
+      "id": "02",
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
+      "answer": "William Shakespeare"
     },
     {
-        "id": "03",
-        "question" : "Which of the following is not a disadvantage of React.js?",
-        "options": [
-            "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
-            "The library of React.js is pretty large.",
-            "The JSX in React.js makes code easy to read and write.",
-            "The learning curve can be steep in React.js."
-        ],
-        "answer": "The JSX in React.js makes code easy to read and write."
+      "id": "03",
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "CO2", "NaCl", "O2"],
+      "answer": "H2O"
     },
     {
-        "id": "04",
-        "question" : "Which of the following command is used to install create-react-app?",
-        "options": [
-            "npm install -g create-react-app",
-            "npx create-react-app my-app",
-            "npm install create-react-app",
-            "npm install -f create-react-app"
-        ],
-        "answer": "npx create-react-app my-app"
+      "id": "04",
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+      "answer": "Mars"
     },
     {
-        "id": "05",
-        "question" : "What of the following is used in React.js to increase performance?",
-        "options": [
-            "Original DOM",
-            "Virtual DOM",
-            "Both A and B.",
-            "None of the above."
-        ],
-        "answer": "Virtual DOM"
+      "id": "05",
+      "question": "Who is known as the father of computer science?",
+      "options": ["Alan Turing", "Charles Babbage", "Ada Lovelace", "Steve Jobs"],
+      "answer": "Alan Turing"
     },
     {
-        "id": "06",
-        "question" : "What is the default port where webpack-server runs?",
-        "options": [
-            "3000",
-            "8080",
-            "3030",
-            "6060"
-        ],
-        "answer": "3000"
+      "id": "06",
+      "question": "In which year did World War II end?",
+      "options": ["1945", "1918", "1939", "1955"],
+      "answer": "1945"
     },
     {
-        "id": "07",
-        "question" : "How many numbers of elements a valid react component can return?",
-        "options": [
-            "1",
-            "2",
-            "3",
-            "Unlimited"
-        ],
-        "answer": "1"
+      "id": "07",
+      "question": "What is the largest mammal in the world?",
+      "options": ["Blue Whale", "African Elephant", "Giraffe", "Hippopotamus"],
+      "answer": "Blue Whale"
     },
     {
-        "id": "08",
-        "question" : "What is the declarative way to render a dynamic list of components based on values in an array?",
-        "options": [
-            "Using the reduce array method",
-            "Using the <Each /> component",
-            "Using the Array.map() method",
-            "With a for/while loop"
-        ],
-        "answer": "Using the Array.map() method"
+      "id": "08",
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+      "answer": "Leonardo da Vinci"
     },
     {
-        "id": "09",
-        "question" : "What is a state in React?",
-        "options": [
-            "A permanent storage.",
-            "Internal storage of the component.",
-            "External storage of the component.",
-            "None of the above."
-        ],
-        "answer": "Internal storage of the component."
+      "id": "09",
+      "question": "What is the square root of 144?",
+      "options": ["12", "10", "14", "16"],
+      "answer": "12"
     },
     {
-        "id": "10",
-        "question" : "What are the two ways to handle data in React?",
-        "options": [
-            "State & Props",
-            "Services & Components",
-            "State & Services",
-            "State & Component"
-        ],
-        "answer": "State & Props"
-    }
-]
+      "id": "10",
+      "question": "Which country is famous for its tulips?",
+      "options": ["Netherlands", "Japan", "France", "Italy"],
+      "answer": "Netherlands"
+    },
+    {
+          "id": "11",
+          "question": "What is the tallest mountain in the world?",
+          "options": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+          "answer": "Mount Everest"
+        },
+        {
+          "id": "12",
+          "question": "Who discovered penicillin?",
+          "options": ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Albert Einstein"],
+          "answer": "Alexander Fleming"
+        },
+        {
+          "id": "13",
+          "question": "Which element has the chemical symbol 'Fe'?",
+          "options": ["Iron", "Gold", "Silver", "Copper"],
+          "answer": "Iron"
+        },
+        {
+          "id": "14",
+          "question": "What is the main ingredient in guacamole?",
+          "options": ["Avocado", "Tomato", "Onion", "Lemon"],
+          "answer": "Avocado"
+        },
+        {
+          "id": "15",
+          "question": "Who painted 'Starry Night'?",
+          "options": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Salvador Dalí"],
+          "answer": "Vincent van Gogh"
+        },
+        {
+          "id": "16",
+          "question": "Which planet is known as the 'Morning Star' and 'Evening Star'?",
+          "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+          "answer": "Venus"
+        },
+        {
+          "id": "17",
+          "question": "What is the chemical symbol for gold?",
+          "options": ["Au", "Ag", "Fe", "Hg"],
+          "answer": "Au"
+        },
+        {
+          "id": "18",
+          "question": "Who wrote 'To Kill a Mockingbird'?",
+          "options": ["Harper Lee", "John Steinbeck", "F. Scott Fitzgerald", "Ernest Hemingway"],
+          "answer": "Harper Lee"
+        },
+        {
+          "id": "19",
+          "question": "What is the currency of Japan?",
+          "options": ["Yen", "Won", "Yuan", "Euro"],
+          "answer": "Yen"
+        },
+        {
+          "id": "20",
+          "question": "Who was the first man to step on the moon?",
+          "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
+          "answer": "Neil Armstrong"
+        }
+    ,   
+    {
+        "id": "21",
+        "question": "What is the capital of France?",
+        "options": ["Paris", "Madrid", "Rome", "Berlin"],
+        "answer": "Paris"
+      },
+      {
+        "id": "22",
+        "question": "Who is the author of 'The Great Gatsby'?",
+        "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "Harper Lee", "John Steinbeck"],
+        "answer": "F. Scott Fitzgerald"
+      },
+      {
+        "id": "23",
+        "question": "Which country is famous for its tulips?",
+        "options": ["Netherlands", "France", "Italy", "Spain"],
+        "answer": "Netherlands"
+      },
+      {
+        "id": "24",
+        "question": "What is the chemical symbol for water?",
+        "options": ["H2O", "CO2", "O2", "HCl"],
+        "answer": "H2O"
+      },
+      {
+        "id": "25",
+        "question": "Who is known as the 'Father of Computers'?",
+        "options": ["Charles Babbage", "Alan Turing", "Ada Lovelace", "Steve Jobs"],
+        "answer": "Charles Babbage"
+      },
+      {
+        "id": "26",
+        "question": "What is the largest organ in the human body?",
+        "options": ["Skin", "Heart", "Liver", "Brain"],
+        "answer": "Skin"
+      },
+      {
+        "id": "27",
+        "question": "Which animal is known as the 'King of the Jungle'?",
+        "options": ["Lion", "Tiger", "Leopard", "Cheetah"],
+        "answer": "Lion"
+      },
+      {
+        "id": "28",
+        "question": "What is the chemical symbol for sodium?",
+        "options": ["Na", "So", "S", "Sn"],
+        "answer": "Na"
+      },
+      {
+        "id": "29",
+        "question": "Who is the creator of the theory of relativity?",
+        "options": ["Albert Einstein", "Isaac Newton", "Stephen Hawking", "Galileo Galilei"],
+        "answer": "Albert Einstein"
+      },
+      {
+        "id": "30",
+        "question": "What is the capital of Australia?",
+        "options": ["Canberra", "Sydney", "Melbourne", "Perth"],
+        "answer": "Canberra"
+      },
+        {
+          "id": "31",
+          "question": "Which planet is known as the 'Red Planet'?",
+          "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+          "answer": "Mars"
+        },
+        {
+          "id": "32",
+          "question": "Who painted the Mona Lisa?",
+          "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+          "answer": "Leonardo da Vinci"
+        },
+        {
+          "id": "33",
+          "question": "What is the chemical symbol for gold?",
+          "options": ["Au", "Ag", "G", "Go"],
+          "answer": "Au"
+        },
+        {
+          "id": "34",
+          "question": "Which country is known as the 'Land of the Rising Sun'?",
+          "options": ["Japan", "China", "South Korea", "Thailand"],
+          "answer": "Japan"
+        },
+        {
+          "id": "35",
+          "question": "Who wrote 'To Kill a Mockingbird'?",
+          "options": ["Harper Lee", "Mark Twain", "F. Scott Fitzgerald", "J.D. Salinger"],
+          "answer": "Harper Lee"
+        },
+        {
+          "id": "36",
+          "question": "What is the largest ocean in the world?",
+          "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+          "answer": "Pacific Ocean"
+        },
+        {
+          "id": "37",
+          "question": "What is the chemical symbol for iron?",
+          "options": ["Fe", "Ir", "In", "F"],
+          "answer": "Fe"
+        },
+        {
+          "id": "38",
+          "question": "Who developed the theory of evolution by natural selection?",
+          "options": ["Charles Darwin", "Gregor Mendel", "Alfred Russel Wallace", "Louis Pasteur"],
+          "answer": "Charles Darwin"
+        },
+        {
+          "id": "39",
+          "question": "What is the largest mammal in the world?",
+          "options": ["Blue Whale", "African Elephant", "Giraffe", "Hippopotamus"],
+          "answer": "Blue Whale"
+        },
+        {
+          "id": "40",
+          "question": "What is the chemical symbol for carbon?",
+          "options": ["C", "Ca", "Cr", "Co"],
+          "answer": "C"
+        },
+        {
+          "id": "41",
+          "question": "Who was the first person to step on the moon?",
+          "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
+          "answer": "Neil Armstrong"
+        },
+        {
+          "id": "42",
+          "question": "Which country is known as the 'Land of the Midnight Sun'?",
+          "options": ["Norway", "Sweden", "Finland", "Russia"],
+          "answer": "Norway"
+        },
+        {
+          "id": "43",
+          "question": "What is the chemical symbol for silver?",
+          "options": ["Ag", "Si", "S", "Sl"],
+          "answer": "Ag"
+        },
+        {
+          "id": "44",
+          "question": "Who wrote 'Romeo and Juliet'?",
+          "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+          "answer": "William Shakespeare"
+        },
+        {
+          "id": "45",
+          "question": "Which country is known as the 'Land of Fire and Ice'?",
+          "options": ["Iceland", "Greenland", "Norway", "New Zealand"],
+          "answer": "Iceland"
+    },
+    {
+        "id": "46",
+        "question": "Who painted the ceiling of the Sistine Chapel?",
+        "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"],
+        "answer": "Michelangelo"
+      },
+      {
+        "id": "47",
+        "question": "What is the chemical symbol for hydrogen?",
+        "options": ["H", "He", "Hy", "Ho"],
+        "answer": "H"
+      },
+      {
+        "id": "48",
+        "question": "Who wrote 'The Great Gatsby'?",
+        "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck", "William Faulkner"],
+        "answer": "F. Scott Fitzgerald"
+      },
+      {
+        "id": "49",
+        "question": "What is the tallest mountain in the world?",
+        "options": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+        "answer": "Mount Everest"
+      },
+      {
+        "id": "50",
+        "question": "What is the chemical symbol for oxygen?",
+        "options": ["O", "Om", "Ox", "On"],
+        "answer": "O"
+      },
+      {
+        "id": "51",
+        "question": "Who was the first woman to win a Nobel Prize?",
+        "options": ["Marie Curie", "Rosalind Franklin", "Dorothy Crowfoot Hodgkin", "Irene Joliot-Curie"],
+        "answer": "Marie Curie"
+      },
+      {
+        "id": "52",
+        "question": "What is the capital city of Canada?",
+        "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+        "answer": "Ottawa"
+      },
+      {
+        "id": "53",
+        "question": "What is the chemical symbol for sodium?",
+        "options": ["Na", "Ni", "No", "Ne"],
+        "answer": "Na"
+      },
+      {
+        "id": "54",
+        "question": "Who wrote '1984'?",
+        "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Arthur C. Clarke"],
+        "answer": "George Orwell"
+      },
+      {
+        "id": "55",
+        "question": "What is the smallest country in the world?",
+        "options": ["Vatican City", "Monaco", "San Marino", "Nauru"],
+        "answer": "Vatican City"
+      },
+      {
+        "id": "56",
+        "question": "Who discovered penicillin?",
+        "options": ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Edward Jenner"],
+        "answer": "Alexander Fleming"
+      },
+      {
+        "id": "57",
+        "question": "Which continent is the least populated?",
+        "options": ["Antarctica", "Australia", "South America", "Europe"],
+        "answer": "Antarctica"
+      },
+      {
+        "id": "58",
+        "question": "What is the chemical symbol for calcium?",
+        "options": ["Ca", "Ce", "Cm", "Cl"],
+        "answer": "Ca"
+      },
+      {
+        "id": "59",
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "options": ["Jane Austen", "Charlotte Bronte", "Emily Bronte", "Thomas Hardy"],
+        "answer": "Jane Austen"
+      },
+      {
+        "id": "60",
+        "question": "What is the longest river in the world?",
+        "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+        "answer": "Nile"
+      },
+      {
+        "id": "61",
+        "question": "Who is the author of 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "John Steinbeck", "Mark Twain", "William Faulkner"],
+        "answer": "Harper Lee"
+      },
+      {
+        "id": "62",
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Au", "Ag", "Go", "Gl"],
+        "answer": "Au"
+      },
+      {
+        "id": "63",
+        "question": "Who is known as the 'Father of Modern Physics'?",
+        "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Niels Bohr"],
+        "answer": "Albert Einstein"
+      },
+      {
+        "id": "64",
+        "question": "Which planet is known as the 'Red Planet'?",
+        "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+        "answer": "Mars"
+      },
+      {
+        "id": "65",
+        "question": "Who wrote 'The Catcher in the Rye'?",
+        "options": ["J.D. Salinger", "Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck"],
+        "answer": "J.D. Salinger"
+      },
+      {
+        "id": "66",
+        "question": "What is the chemical symbol for silver?",
+        "options": ["Ag", "Si", "Sl", "Sv"],
+        "answer": "Ag"
+      },
+      {
+        "id": "67",
+        "question": "Who painted 'Starry Night'?",
+        "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "answer": "Vincent van Gogh"
+      },
+      {
+        "id": "68",
+        "question": "What is the capital city of Spain?",
+        "options": ["Madrid", "Barcelona", "Seville", "Valencia"],
+        "answer": "Madrid"
+      },
+      {
+        "id": "69",
+        "question": "What is the chemical symbol for iron?",
+        "options": ["Fe", "Fr", "Fn", "Fo"],
+        "answer": "Fe"
+      },
+      {
+        "id": "70",
+        "question": "Who wrote 'The Lord of the Rings'?",
+        "options": ["J.R.R. Tolkien", "C.S. Lewis", "George R.R. Martin", "J.K. Rowling"],
+        "answer": "J.R.R. Tolkien"
+      },
+      {
+        "id": "71",
+        "question": "Which planet is known as the 'Blue Planet'?",
+        "options": ["Earth", "Mars", "Venus", "Neptune"],
+        "answer": "Earth"
+      },
+      {
+        "id": "72",
+        "question": "What is the chemical symbol for carbon?",
+        "options": ["C", "Ca", "Co", "Cr"],
+        "answer": "C"
+      },
+      {
+        "id": "73",
+        "question": "Who painted the 'Mona Lisa'?",
+        "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+        "answer": "Leonardo da Vinci"
+      },
+      {
+        "id": "74",
+        "question": "What is the capital city of Australia?",
+        "options": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+        "answer": "Canberra"
+      },
+      {
+        "id": "75",
+        "question": "What is the chemical symbol for nitrogen?",
+        "options": ["N", "Ni", "No", "Ne"],
+        "answer": "N"
+      },
+      {
+        "id": "76",
+        "question": "Who wrote 'The Odyssey'?",
+        "options": ["Homer", "Virgil", "Ovid", "Aesop"],
+        "answer": "Homer"
+      },
+      {
+        "id": "77",
+        "question": "What is the largest mammal in the world?",
+        "options": ["Blue whale", "African elephant", "Giraffe", "Hippopotamus"],
+        "answer": "Blue whale"
+      },
+      {
+        "id": "78",
+        "question": "What is the chemical symbol for potassium?",
+        "options": ["K", "Ka", "Kl", "Kn"],
+        "answer": "K"
+      },
+      {
+        "id": "79",
+        "question": "Who discovered the theory of relativity?",
+        "options": ["Albert Einstein", "Isaac Newton", "Stephen Hawking", "Galileo Galilei"],
+        "answer": "Albert Einstein"
+      },
+      {
+        "id": "80",
+        "question": "What is the capital city of Brazil?",
+        "options": ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"],
+        "answer": "Brasília"
+      },
+      {
+        "id": "81",
+        "question": "Who wrote the novel '1984'?",
+        "options": ["George Orwell", "Ray Bradbury", "Aldous Huxley", "F. Scott Fitzgerald"],
+        "answer": "George Orwell"
+      },
+      {
+        "id": "82",
+        "question": "What is the chemical symbol for sodium?",
+        "options": ["Na", "No", "Ne", "Ni"],
+        "answer": "Na"
+      },
+      {
+        "id": "83",
+        "question": "Who is known as the 'Father of Computer Science'?",
+        "options": ["Alan Turing", "Bill Gates", "Steve Jobs", "Linus Torvalds"],
+        "answer": "Alan Turing"
+      },
+      {
+        "id": "84",
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+        "answer": "Pacific Ocean"
+      },
+      {
+        "id": "85",
+        "question": "Who wrote 'The Great Gatsby'?",
+        "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "J.D. Salinger", "William Faulkner"],
+        "answer": "F. Scott Fitzgerald"
+      },
+      {
+        "id": "86",
+        "question": "What is the chemical symbol for calcium?",
+        "options": ["Ca", "Cl", "Ce", "Cm"],
+        "answer": "Ca"
+      },
+      {
+        "id": "87",
+        "question": "Who painted the 'Girl with a Pearl Earring'?",
+        "options": ["Johannes Vermeer", "Rembrandt", "Vincent van Gogh", "Pablo Picasso"],
+        "answer": "Johannes Vermeer"
+      },
+      {
+        "id": "88",
+        "question": "What is the capital city of France?",
+        "options": ["Paris", "London", "Berlin", "Rome"],
+        "answer": "Paris"
+      },
+      {
+        "id": "89",
+        "question": "What is the chemical symbol for magnesium?",
+        "options": ["Mg", "Ma", "Mn", "Mo"],
+        "answer": "Mg"
+      },
+      {
+        "id": "90",
+        "question": "Who wrote 'The Chronicles of Narnia'?",
+        "options": ["C.S. Lewis", "J.R.R. Tolkien", "J.K. Rowling", "George R.R. Martin"],
+        "answer": "C.S. Lewis"
+      },
+      {
+        "id": "91",
+        "question": "What is the smallest planet in the solar system?",
+        "options": ["Mercury", "Venus", "Earth", "Mars"],
+        "answer": "Mercury"
+      },
+      {
+        "id": "92",
+        "question": "What is the chemical symbol for hydrogen?",
+        "options": ["H", "He", "Ho", "Hu"],
+        "answer": "H"
+      },
+      {
+        "id": "93",
+        "question": "Who wrote 'War and Peace'?",
+        "options": ["Leo Tolstoy", "Fyodor Dostoevsky", "Anton Chekhov", "Nikolai Gogol"],
+        "answer": "Leo Tolstoy"
+      },
+      {
+        "id": "94",
+        "question": "What is the capital city of Canada?",
+        "options": ["Ottawa", "Toronto", "Montreal", "Vancouver"],
+        "answer": "Ottawa"
+      },
+      {
+        "id": "95",
+        "question": "What is the chemical symbol for oxygen?",
+        "options": ["O", "Om", "On", "Ox"],
+        "answer": "O"
+      },
+      {
+        "id": "96",
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Emily Brontë"],
+        "answer": "William Shakespeare"
+      },
+      {
+        "id": "97",
+        "question": "What is the largest desert in the world?",
+        "options": ["Antarctica", "Sahara Desert", "Arabian Desert", "Gobi Desert"],
+        "answer": "Antarctica"
+      },
+      {
+        "id": "98",
+        "question": "What is the chemical symbol for lead?",
+        "options": ["Pb", "Le", "Ld", "Pl"],
+        "answer": "Pb"
+      },
+      {
+        "id": "99",
+        "question": "Who invented the telephone?",
+        "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"],
+        "answer": "Alexander Graham Bell"
+      },
+      {
+        "id": "100",
+        "question": "What is the capital city of Japan?",
+        "options": ["Tokyo", "Osaka", "Kyoto", "Nagoya"],
+        "answer": "Tokyo"
+      }
+  ]
+  

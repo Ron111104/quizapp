@@ -1,44 +1,48 @@
 import React, { useContext } from 'react';
 import DataContext from '../context/dataContext';
+import './Quiz.css';
 
 const Quiz = () => {
-    const { showQuiz, question, quizs, checkAnswer, correctAnswer,
-            selectedAnswer,questionIndex, nextQuestion, showTheResult }  = useContext(DataContext);
+  const { question, quizs, checkAnswer, correctAnswer, selectedAnswer, questionIndex, nextQuestion, showTheResult, marks ,showQuiz} = useContext(DataContext);
 
-    return (
-        <section className="bg-dark text-white" style={{ display: `${showQuiz ? 'block' : 'none'}` }}>
-            <div className="container">
-                <div className="row vh-100 align-items-center justify-content-center">
-                    <div className="col-lg-8">
-                        <div className="card p-4" style={{ background: '#3d3d3d', borderColor: '#646464' }}>
-                            <div className="d-flex justify-content-between gap-md-3">
-                                <h5 className='mb-2 fs-normal lh-base'>{question?.question}</h5>
-                                <h5 style={{ color: '#60d600', width: '100px', textAlign: 'right' }}>{quizs.indexOf(question) + 1} / {quizs?.length}</h5>
-                            </div>
-                            <div>
-                                {
-                                    question?.options?.map((item, index) => <button
-                                        key={index}
-                                        className={`option w-100 text-start btn text-white py-2 px-3 mt-3 rounded btn-dark ${correctAnswer === item && 'bg-success'}`}
-                                        onClick={(event) => checkAnswer(event, item)}
-                                    >
-                                        {item}
-                                    </button>)
-                                }
-                            </div>
+  const handleOptionClick = (option) => {
+    if (selectedAnswer !== '') return; // Do not allow clicking if an answer has already been selected
 
-                            {
-                                (questionIndex + 1) !== quizs.length ?
-                                    <button className='btn py-2 w-100 mt-3 bg-primary text-light fw-bold' onClick={nextQuestion} disabled={!selectedAnswer}>Next Question</button>
-                                    :
-                                    <button className='btn py-2 w-100 mt-3 bg-primary text-light fw-bold' onClick={showTheResult} disabled={!selectedAnswer}>Show Result</button>
-                            }
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+    // Check if the clicked option is correct or wrong
+    const isCorrect = option === correctAnswer;
+    checkAnswer(isCorrect, option);
+  };
+  if (showQuiz === false) {
+    return ;
+  }
+  return (
+    <section className="quiz-section">
+      <div className="score">
+        <p>Your current score:</p>
+        <h1>{marks}</h1>
+      </div>
+      <div className="quiz-container">
+        <div className="quiz-content">
+          <h5>{question?.question}</h5>
+          {question?.options?.map((option, index) => (
+            <button
+              key={index}
+              className={`option btn ${selectedAnswer === option ? (option === correctAnswer ? 'correct' : 'wrong') : ''}`}
+              onClick={() => handleOptionClick(option)}
+            >
+              {option}
+            </button>
+          ))}
+          <button
+            onClick={questionIndex + 1 !== quizs.length? nextQuestion : showTheResult}
+            disabled={selectedAnswer === ''}
+          >
+            {questionIndex + 1 !== quizs.length ? 'Next Question' : 'Show Result'}
+          </button>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Quiz;

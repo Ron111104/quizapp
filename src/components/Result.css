@@ -1,0 +1,43 @@
+.result-section {
+    background-color: #28a745;
+    color: #fff;
+    padding: 20px;
+    width:100vw;
+    height:100vh;
+  }
+  
+  .result-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .result-content {
+    text-align: center;
+  }
+  
+  .result-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .result-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .result-content button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #28a745;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .result-content button:hover {
+    background-color: #218838;
+    color: #fff;
+  }
+  

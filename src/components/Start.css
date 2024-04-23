@@ -1,0 +1,38 @@
+.start-section {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    width:100vw;
+    height:100vh;
+  }
+  
+  .start-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .start-content {
+    text-align: center;
+  }
+  
+  .start-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .start-content button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .start-content button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
